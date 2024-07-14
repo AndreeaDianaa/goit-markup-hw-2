@@ -6,6 +6,7 @@
   --white-text: #ffffff;
   --blue-color: #4d5ae5;
   --hover-focus-color: #404BBF;
+  --cloud-color:#F4F4FD;
 }
 
 
@@ -134,7 +135,7 @@ body {
 }
 
 .our-team-section{
-    background-color: #F4F4FD;
+    background-color: var(--cloud-color);
 }
 
 .team-members{
@@ -167,12 +168,12 @@ body {
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: var(--white-text);
+  color: var(--cloud-color);
 }
 
 .footer-paragraph {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #F4F4FD;
+  color: var(--cloud-color);
 }
